@@ -48,9 +48,49 @@
     height: auto;
 }
 
-    main p {
+    main {
+        p {
         width: 90%;
         text-align: center;
     }
+
+    .main {
+        text-align: center;
+    }
+
+    h1 {
+        align-self: center;
+    }
+}
+
+
+    
+
+    .trending-cards  {
+        justify-content: center
+
+    }
+
+    .about-us {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+       .about-us-block {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 400px;
+        }
+    }
+ 
+    }
+
+    
+
+    
+
 
 }
