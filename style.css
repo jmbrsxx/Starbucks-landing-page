@@ -27,7 +27,7 @@ header {
 }
 
 img {
-    width: clamp(300px, 50%, 400px);
+    width: clamp(300px, 50%, 50px);
 
 }
 
@@ -51,8 +51,8 @@ a {
 }
 
 a:hover {
-    color: #A9F53E;
-    border-bottom: solid 2px #A9F53E;
+    color: #508A71;
+    border-bottom: solid 2px #508A71;
 }
 
 #close-tab-mobile {
@@ -183,7 +183,7 @@ main p {
 
 .about-us {
     margin: 4%;
-    height: calc(100vh - 96px);
+    min-height: calc(100vh - 96px);
     border-radius: 20px;
     padding: 24px 4%;
     background-color: #247954;
@@ -237,3 +237,65 @@ main p {
     }
 }
 
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+.products-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.product {
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    background-color: #247954;
+    border-radius: 20px;
+    background-image: url(images/about/bg-about.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    img {
+        position: relative;
+        top: -80px;
+    }
+
+    h1 {
+        color: #ffffff;
+        position: relative;
+        top: -40px;
+    }
+
+    p {
+        position: relative;
+        top: -40px;
+        color: #ffea00;
+
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding: 12px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #247954;
+
+    h1 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
